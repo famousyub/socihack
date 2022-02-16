@@ -1,0 +1,19 @@
+{
+    "require": {
+        "facebook/xhp-lib": "~2.2.0",
+        "hhvm/xhp-js": "^1.0",
+        "facebook/hack-codegen": "^4.5",
+        "hhvm/hhvm-autoload": "^3.3",
+        "hhvm/hsl": "^4.108"
+    },
+    "config": {
+        "allow-plugins": {
+            "hhvm/hhvm-autoload": true
+        }
+    },
+    "require-dev": {
+        "hhvm/hhast": "^4.139",
+        "hhvm/hacktest": "^2.3",
+        "facebook/fbexpect": "^2.8"
+    }
+}

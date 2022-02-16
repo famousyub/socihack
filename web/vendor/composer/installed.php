@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => '__root__',
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'facebook/xhp-lib' => array(
+            'pretty_version' => '2.2.1',
+            'version' => '2.2.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../facebook/xhp-lib',
+            'aliases' => array(),
+            'reference' => '87cfd8fea00ec19dc0e4fb682cae111601c66adb',
+            'dev_requirement' => false,
+        ),
+        'hhvm/xhp-js' => array(
+            'pretty_version' => 'v1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../hhvm/xhp-js',
+            'aliases' => array(),
+            'reference' => 'ea7974b64876838231cd8eb36e348f3d28f94bfb',
+            'dev_requirement' => false,
+        ),
+    ),
+);
