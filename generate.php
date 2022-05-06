@@ -1,5 +1,5 @@
 <?hh
-require_once('vendor/autoload.php');
+require_once('vendor/autoload.hack');
 
 use Facebook\HackCodegen\{
   CodegenFileType,
@@ -42,5 +42,7 @@ function make_script(): void {
     )
     ->save();
 }
-
-make_script();
+<<__EntryPoint>>
+function main():void {
+  make_script();
+}

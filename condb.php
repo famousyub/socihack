@@ -1,4 +1,4 @@
-<?hh 
+<?hh
 use \Hack\UserDocumentation\API\Examples\AsyncMysql\ConnectionInfo as CI;
 
 async function get_connection(): Awaitable<\AsyncMysqlConnection> {
